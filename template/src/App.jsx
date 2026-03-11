@@ -1,13 +1,17 @@
 
 import Navbar from './components/Navbar';
-// import Hero from './components/Hero';
+import Hero from './components/Hero';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
   return (
     <div>
       <div  className='bg-blue-500'>
         <Navbar />
-        {/* <Hero /> */}
+        <Hero />
+      </div>
+      <div>
+        <Testimonials />
       </div>
     </div>
   )
