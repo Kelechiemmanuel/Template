@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="grid place-self-center items-center max-w-290 gap-1 py-20 px-10
       grid-cols-1
       md:grid-cols-1 md:px-20
-      lg:grid-cols-2
+      lg:grid-cols-2 lg:px-0
       ">
         <div>
           <p className="font-bold text-3xl text-white">
