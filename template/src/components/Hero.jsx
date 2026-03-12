@@ -8,6 +8,7 @@ const Hero = () => {
       grid-cols-1
       md:grid-cols-1 md:px-20
       lg:grid-cols-2 lg:px-0
+      min-[1024px]:py-20
       ">
         <div>
           <p className="font-bold text-3xl text-white">
