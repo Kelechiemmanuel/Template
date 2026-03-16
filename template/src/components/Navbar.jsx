@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
             </ul>
 
-            <div className={`${!toggle?"hidden":"flex"} flex-col lg:hidden fixed left-0 top-0 bg-black h-full w-[50%] z-10 px-20 py-20`}>
+            <div className={`${!toggle?"hidden":"flex"} flex-col lg:hidden fixed  bg-black h-full w-[50%] z-10 px-20 py-20`}>
                 {navLinks.map((nav, index) => (
                     <li key={nav.id} className={`font-poppins font-semibold cursor-pointer text-[15px] mb-5
               ${active === nav.title ? "text-amber-400" : "text-gray-300"}
